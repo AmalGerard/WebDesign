@@ -1,0 +1,369 @@
+﻿body{
+	background-color: #274340;
+}
+#mainContainer{
+	margin: auto;
+	height: 850px;
+	width: 1024px;
+	background-color: #B5B591;
+}
+#header{
+	height:175px;
+	width: auto;
+}
+#footer{
+	border-top:thin #505030 solid;
+	margin-top:10px;
+	height: 35px;
+	text-align: center;
+	font-size: small;
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	color: #505030;
+}
+#footer ul{
+	list-style:none;
+	padding: 0;
+	margin: 3px 0 0 0;
+}
+#footer li{
+	font-weight:bold;
+	display: inline;
+	margin: 0 5px 0 10px;
+}
+#footer a{
+	text-decoration: none;
+	color:#505030;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
+#VCUbarHolder{
+	/*border-radius: 6px 6px 0px 0px;*/
+	height: 20px;
+	background-color: #000000;
+	background-image: url('images/VCUBarBW.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#vcuLink{
+	display:block;
+	height: 100%;	
+}
+#titleHolder{
+	height: 120px;
+	background-color: #B5B591;
+	background-image: url('images/CGSO_BluW_275.png'), url('images/ChemLogo_100.png');
+	background-position: -70px -72px, 914px 10px;
+	background-repeat: no-repeat;
+}
+#titleHolder a{
+	display: block;
+	height:100%;
+	text-decoration: none;
+}
+#logoHolder{
+	position: absolute;
+	height:107px;
+	width:96px;
+	margin: 5px 0 0 36px;
+}
+#titleHolder h1{
+	margin: 0 0 0 150px;
+	letter-spacing: 4px;
+	word-spacing: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	color: #91484A;
+}
+#titleHolder img{
+	margin-top:10px;
+	float: right;
+	clear: none;
+}
+#deptChem{
+	position:absolute; 
+	height : 20px; 
+	margin-left:655px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+#chemLogoHolder{
+
+	height:100px;
+	width:100px;
+	float: right;
+	margin:-83px 10px 0 0;
+}
+#menuHolder{
+	height: 35px;
+	background-color: #2E2E1B;
+}
+#mainMenuHolder{
+	height: 30px;
+}
+#secMenuHolder{
+	height: 5px;
+	background-color: #505030;
+}
+
+#mainMenu{
+	padding:0;
+	margin:0;
+	height:30px;
+	width:100%;
+	float:left;
+}
+#mainMenu li{
+	height: 30px;
+	width: 143px;
+	border-right: medium black solid;
+	display: block;
+	float: left;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+#mainMenu li a{
+	display: block;
+	text-decoration:none;
+	color: #96964A;
+	margin: auto;
+	padding: 4px 0 4px 0;
+}
+
+#mainMenu li a:hover {
+	color: #B5B591;
+}
+#contentContainer{
+	width:100%;
+	height:630px;
+}
+#sideMenu{
+	margin: 5px 0 0 5px;
+	height: 100%;
+	width: 163px;
+	float: left;
+	border-right:thin gray solid;
+}
+#sMItems{
+	padding:0;
+	margin: 0;
+	text-align: center;
+	list-style:none;
+}
+#sMItems li{
+	cursor:pointer;
+	border-radius: 8px 0 0 8px;
+	margin-bottom: 2px;
+	height: 40px;
+/*	background-color: #DCDE7A;
+	color: #505030;*/
+	background-color: #505030;
+	color: #B5B591;
+}
+#sMItems li p{
+	height:100%;
+	margin:0 2px 0 2px;
+}
+#sMItems li.current{
+	font-weight: bold;
+	background-color: #767556;
+	color: #414125;
+	width: 164px;
+}
+#sMItems li.normal:hover{
+	font-weight: bold;
+}
+#contentwM{
+	float: left;
+	height: 100%;
+	width: 850px;
+	margin-top: 5px;
+	background-color: #767556;
+}
+#sMItems li.homeTab{
+	border-radius: 12px 0 0 12px;
+	height: 124px;
+	opacity: 1;
+	font-size:30px;
+}
+#sMItems li.homeTab p{
+	position:relative;
+	top:47px;
+	height:24px;
+}
+#sMItems #home1,
+#welcome{
+	background-color: #9595B9;
+	color: #6648BF;
+}
+#sMItems #home2,
+#about{
+	background-color: #89B48F;
+	color: #426647;
+}
+#sMItems #home3,
+#highlights{
+	background-color: #B4898A;
+	color: #91484A;
+}
+#sMItems #home4,
+#chemistry{
+	background-color: #79A8B0;
+	color: #2F6068;
+}
+#sMItems #home5{
+	background-color: #CC9871;
+	color: #A94E21;
+	height:126px;
+}
+#support{
+	background-color: #CC9871;
+	color: #A94E21;
+}
+
+#sMItems li.homeTab.current{
+	font-weight: bold;
+	width: 164px;
+	opacity: 1;
+}
+.homeTabContent.current{
+	opacity: 1;
+}
+.homeTabContent.hidden{
+	opacity: 0;
+}
+.homeTabContent{
+	position: absolute;
+	height:630px;
+	width: 850px;
+	transition-property:opacity;
+	transition-duration: 1s;
+	transition-delay:0s;
+	-moz-transition-duration: 1s;	/* Firefox 4 */
+	-moz-transition-delay:0s;
+	-webkit-transition-duration: 1s; /* Safari and Chrome */
+	-webkit-transition-delay: 0s; 
+	-o-transition-property:opacity; /* Opera */
+	-o-transition-duration: 1s;
+	-o-transition-delay: 0s;
+	-ms-transition-duration: 1s;	/* Firefox 4 */
+	-ms-transition-delay:0s;
+}
+#welcomeContent{
+	height: 620px;
+	margin: 5px;
+}
+#welCont1{
+	height: 415px;
+	width: 560px;
+	background-image:url('images/homWelc/homWelc1.JPG');
+	float:left;
+	clear:none;
+}
+#welCont2{
+	float:left;
+	width:280px;
+	height:415px;
+	background:url('images/homWelc/homWelc2.jpg'), url('images/homWelc/homWelc3.JPG');
+	background-position:bottom left, top left;
+	background-repeat:no-repeat;
+	background-size: 280px 208px, 280px 207px;
+	
+}
+#welCont3{
+	height: 205px;
+	width:840px;
+	background-color:seashell;
+	float:right;
+	background-image: url('images/homWelc/homWelc5.JPG'), url('images/homWelc/homWelc6.JPG'), url('images/homWelc/homWelc4.JPG');
+	background-position:top center, top left, top right;
+	background-repeat:no-repeat;
+}
+#about p{
+	text-align: justify;
+	margin: 20px;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 20px;
+	word-spacing:6px;
+	color:#174617;
+}
+#photoTitle{
+	height:25px;
+	width:800px;
+}
+#photoDisp{
+	position:relative;
+	margin:5px 0 0 5px;
+	background-color:#F0F0F0;
+	height:600px;
+	width:840px;
+	overflow:hidden;
+}
+#leftNavCont{
+	position:relative;
+	background-image:url('images/nav_left_n.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	height:100%;
+	width:40px;
+	float:left;
+	z-index:10;
+	opacity:.5;
+}
+#rightNavCont{
+	position:relative;
+	background-image:url('images/nav_right_n.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	height:100%;
+	width:40px;
+	float:right;
+	z-index:10;
+	opacity:.5;
+}
+#photoDisp:hover #leftNavCont,
+#photoDisp:hover #rightNavCont{
+	opacity:.8;
+}
+#photoDisp:hover #leftNavCont:hover{
+	background-image:url('images/nav_left_a.png');
+	opacity:1;
+}
+#photoDisp:hover #rightNavCont:hover{
+	background-image:url('images/nav_right_a.png');
+	opacity:1;
+}
+#viewport{
+	position:absolute;
+	width:4000px;
+	padding:0;
+	margin: 0;
+	height:600px;
+	margin-left:-1580px;
+	list-style:none;
+}
+#viewport li{
+	margin:0;
+	display:block;
+	float:left;
+	width:800px;
+	text-align:center;
+}
+#photoTitle{
+	text-align:center;
+	font:status-bar;
+	font-weight:bold;
+}
+#photoTitle p{
+	margin-top:5px;
+}
+#calender{
+	margin: 5px;
+	height:620px;
+	width:840px;
+	border:0;
+}
