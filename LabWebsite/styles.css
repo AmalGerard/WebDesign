@@ -1,0 +1,202 @@
+﻿body {
+    background-color: #CCCCFF;
+}
+
+#mainContainer {
+    width: 1024px;
+    height: 850px;
+    margin:auto;
+}
+
+#header {
+    background-color: #333333;
+    height: 220px;
+}
+
+#titleHolder {
+    background: url(images/spline.png)  150px 0 no-repeat;
+    background-color: #7083de;
+    height: 160px;
+}
+
+#title {
+    height: 100%;
+    background: url(images/NFGroup_logo.png) 20px 5px no-repeat;
+}
+
+    #title p {
+        text-align: center;
+    }
+
+#menuHolder {
+    background-color: #9999FF;
+    height: 42px;
+}
+
+#menu {
+    margin: 0 0 0 27px;
+    padding: 0;
+    height: 40px;
+}
+
+.menuItem {
+    list-style-type: none;
+    width: 140px;
+    margin: 2px 0 0 2px;
+    display: block;
+    float: left;
+    background-color: #666666;
+    border-radius: 5px 5px 0 0;
+    height: 38px;
+    background-repeat: no-repeat; 
+    background-position: center 2px;
+}
+
+    .menuItem:hover {
+        background-color: #333333;
+        height: 56px;
+    }
+
+    .menuItem a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 36px;
+    }
+
+        .menuItem a span {
+            display: none;
+        }
+        
+        .menuItem:hover a span {
+        display: inline;
+        font-weight: bold;
+        }
+
+
+#contentHolder {
+    background-color:#808080;
+    height: 595px;
+}
+
+#footer {
+    background-color:#6e6e6e;
+    border-top:2px #333333 solid;
+	height: 33px;
+	text-align: center;
+	font-size: medium;
+    color: #CCCCFF;
+}
+
+    #footer ul{
+	    list-style:none;
+	    padding: 0;
+	    margin: 3px 0 0 0;
+    }
+        #footer ul li{
+	        font-weight:bold;
+	        display: inline;
+	        margin: 0 15px 0 10px;
+         }
+        
+#footer a{
+	text-decoration: none;
+    color: #CCCCFF;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
+        
+/*home page styles*/
+
+#slideHolder {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 568px;
+}
+
+#slideHolder li{
+    list-style-type: none;
+    /*float: left;*/
+}
+
+.slideNav ul {
+    margin: 0;
+    padding: 0;
+    height:22px;
+    background-color: #fff;
+}
+
+    .slideNav ul li {
+        list-style-type: none;
+        width: 18px;
+        margin: 10px 0 0 2px;
+        display: block;
+        float: left;
+        height: 12px; 
+    }
+
+        .slideNav ul li:hover {
+             height: 18px; 
+             margin-top: 2px; 
+             border: 2px solid #E4E4E4;
+        }
+        
+            .slideNav ul li a {
+                display: block;
+                padding: 5px 10px 5px 10px;
+            }
+            .slideNav ul li:hover a {
+                padding: 11px;
+                margin-left: -3px;
+            }
+
+.slide {
+    transition-property:left;
+	transition-duration: 1s;
+	transition-delay:0s;
+	-moz-transition-duration: 1s;	/* Firefox 4 */
+	-moz-transition-delay:0s;
+	-webkit-transition-duration: 1s; /* Safari and Chrome */
+	-webkit-transition-delay: 0s; 
+	-o-transition-property:opacity; /* Opera */
+	-o-transition-duration: 1s;
+	-o-transition-delay: 0s;
+	-ms-transition-duration: 1s;	/* IE */
+	-ms-transition-delay:0s;
+}
+
+.slide ul {
+    margin: 0;
+    padding: 0;
+}
+
+.slideContent {
+    margin: 2px;
+    background-color: #fff;
+}
+
+    .slideContent img {
+        margin: auto;
+        display: block;
+    }
+
+
+ #peopleBox ul {
+    margin: 0;
+    padding: 0;
+    height: 264px;
+ }
+
+    #peopleBox ul li {
+        list-style-type: none;
+        width: 85px;
+        height: 85px;
+        margin: 2px 0 0 2px;
+        display: block;
+        float: left;
+        background-color: #E4E4E4; 
+}
